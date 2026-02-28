@@ -1,5 +1,4 @@
 /* Universal Styles */
-
 :root {
     --white: #FFFFFF;
     --black: #000000;
@@ -8,38 +7,149 @@
     --secondary-blue: #005A8F;
     --tertiary-blue: #002439;
     --hover-red: #84283F;
-    
-    /* add font sizes etc? */
-}
+    }
 
 body {
-    background-color: var(--off-white);
+    background-color: #F1F5F9;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 /* Utility Classes */
-
 .inner-container {
     max-width: 1310px;
     margin: 0 auto;
+    padding: 1rem;
 }
 
 .flex-container {
     display: flex;
+    padding: 1rem;
+    margin-bottom: 1.6875rem;
+    margin-left: 6.25rem;
+}
+
+header {
+    background-color: var(--white);
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 1rem;
+    gap: 1rem;
     justify-content: space-between;
 }
 
+.navigation-bar { 
+    display: flex;
+    flex-wrap: wrap;
+    padding: .5rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    max-width: 1310px;
+    margin: 0 auto;
+    color: var(--black);
+}
+
+header img {
+    width: 100%;
+    max-width: 6.1875rem;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.875rem;
+}
+
+nav ul a {
+    font-size: 20px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.sign-in {
+    background-color: var(--primary-red);
+    color: var(--off-white);
+    font-size: 1.25rem;
+    padding: .75rem;
+    text-decoration: none;
+}
+
+.banner {
+    background-color: var(--secondary-blue);
+    padding: 2.5rem 1.875rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    min-height: 28.6875rem;
+}
+
+.banner-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.location-button {
+    border: 1px solid var(--off-white);
+    text-decoration: none;
+    margin-top: 1.25rem;
+    
+}
 
 /* Typography */
 
 h1 {
     font-size: 4.5rem;
-    color: var(--off-white);
     font-style: normal;
     font-weight: 700;
     line-height: 100%;
+    color: var(--off-white);
 }
 
+h2 {
+    color: var(--black);
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: uppercase;
+}
 
+p {
+    font-size: 1.125rem;
+    color: var(--black);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.banner p {
+    font-size: 2.25rem;
+    color: var(--off-white);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    align-content: center;
+    width: 60.875rem;
+} 
+
+.location-button {
+    border: 1px solid var(--off-white);
+    color: var(--off-white);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 0.75rem 1rem;
+}
+
+/* Body */
 
