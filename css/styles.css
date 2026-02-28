@@ -1,4 +1,5 @@
 /* Universal Styles */
+
 :root {
     --white: #FFFFFF;
     --black: #000000;
@@ -15,6 +16,7 @@ body {
 }
 
 /* Utility Classes */
+
 .inner-container {
     max-width: 1310px;
     margin: 0 auto;
@@ -232,4 +234,23 @@ aside {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: var(--tertiary-blue);
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2.5rem 6.25rem;
+}
+
+footer p {
+    color: var(--off-white);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
 }
